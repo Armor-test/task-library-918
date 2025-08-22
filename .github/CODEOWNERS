@@ -1,0 +1,41 @@
+# CODEOWNERS file for task-library-918
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/squad-tooling @Armor-test/squad-qa
+
+# Directory ownership
+/styles/ @Armor-test/team-governance @Armor-test/unit-design
+/vendor/ @Armor-test/squad-qa @Armor-test/team-logging
+/utils/ @Armor-test/squad-performance @Armor-test/team-reporting
+/common/ @Armor-test/dept-data @Armor-test/dept-test
+/assets/ @Armor-test/dept-test @Armor-test/unit-devops @Armor-test/dept-reporting
+/migrations/ @Armor-test/dept-logging @Armor-test/unit-governance
+/ui/ @Armor-test/squad-payments @Armor-test/squad-reporting
+/tools/ @Armor-test/grp-integration @Armor-test/squad-product @Armor-test/dept-test
+/dist/ @Armor-test/dept-billing @Armor-test/squad-mobile
+/public/ @Armor-test/dept-identity @Armor-test/dept-billing
+/components/ @Armor-test/squad-tooling @Armor-test/squad-search
+/helpers/ @Armor-test/squad-qa @Armor-test/team-core @Armor-test/grp-reporting
+/internal/ @Armor-test/squad-payments @Armor-test/team-reporting
+/scripts/ @Armor-test/squad-cache @Armor-test/dept-logging
+
+# File type ownership
+*.kt @Armor-test/team-frontend @Armor-test/grp-integration @Armor-test/grp-api
+*.cpp @Armor-test/team-logging @Armor-test/squad-api
+*.sh @Armor-test/squad-ml @Armor-test/team-notifications
+*.xml @Armor-test/dept-test @Armor-test/unit-governance
+*.yml @Armor-test/dept-release @Armor-test/squad-research
+*.rb @Armor-test/squad-product @Armor-test/squad-reporting @Armor-test/dept-ui
+*.html @Armor-test/dept-automation @Armor-test/dept-reporting @Armor-test/squad-reporting
+*.go @Armor-test/dept-data @Armor-test/squad-ml @Armor-test/squad-reporting
+*.json @Armor-test/unit-governance @Armor-test/squad-frontend
+*.h @Armor-test/dept-notifications @Armor-test/team-reporting
+*.gradle @Armor-test/dept-ui @Armor-test/squad-database @Armor-test/dept-data
+*.js @Armor-test/grp-payments @Armor-test/grp-storage @Armor-test/squad-search
+*.toml @Armor-test/squad-apps @Armor-test/squad-ml @Armor-test/team-governance
+*.jsx @Armor-test/dept-data @Armor-test/grp-reporting @Armor-test/unit-cloud
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
